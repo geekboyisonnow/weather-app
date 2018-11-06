@@ -29,6 +29,26 @@ section {
   justify-content: center;
 }
 
+.column {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.flex {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   list-style: none;
+}
+
+.margin {
+  margin-top: 75px;
 }
