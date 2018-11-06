@@ -6,6 +6,27 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: lightblue;
+  padding: 15px;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  background-image: image(Images/Tumblr.gif);
+}
+
+section {
+  display: flex;
+  justify-content: center;
 }
 
 ul {
